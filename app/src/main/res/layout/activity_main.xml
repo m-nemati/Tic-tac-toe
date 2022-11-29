@@ -86,7 +86,9 @@
     <!-- Cells -->
 
     <ImageView
-        android:id="@+id/img_cell1"
+        android:id="@+id/img_cell0"
+        android:tag="0"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -95,7 +97,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/hgl1" />
     <ImageView
-        android:id="@+id/img_cell2"
+        android:id="@+id/img_cell1"
+        android:tag="1"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -104,7 +108,9 @@
         app:layout_constraintStart_toStartOf="@+id/vgl1"
         app:layout_constraintTop_toTopOf="@+id/hgl1" />
     <ImageView
-        android:id="@+id/img_cell3"
+        android:id="@+id/img_cell2"
+        android:tag="2"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -114,7 +120,9 @@
         app:layout_constraintTop_toTopOf="@+id/hgl1"
     />
     <ImageView
-        android:id="@+id/img_cell4"
+        android:id="@+id/img_cell3"
+        android:tag="3"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -124,7 +132,9 @@
         app:layout_constraintTop_toTopOf="@+id/hgl2"
  />
     <ImageView
-        android:id="@+id/img_cell5"
+        android:id="@+id/img_cell4"
+        android:tag="4"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -134,7 +144,9 @@
         app:layout_constraintTop_toTopOf="@+id/hgl2"
         />
     <ImageView
-        android:id="@+id/img_cell6"
+        android:id="@+id/img_cell5"
+        android:tag="5"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -144,7 +156,9 @@
         app:layout_constraintTop_toTopOf="@+id/hgl2"
          />
     <ImageView
-        android:id="@+id/img_cell7"
+        android:id="@+id/img_cell6"
+        android:tag="6"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -154,7 +168,9 @@
         app:layout_constraintTop_toTopOf="@+id/hgl3"
         />
     <ImageView
-        android:id="@+id/img_cell8"
+        android:id="@+id/img_cell7"
+        android:tag="7"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -164,7 +180,9 @@
         app:layout_constraintTop_toTopOf="@+id/hgl3"
         />
     <ImageView
-        android:id="@+id/img_cell9"
+        android:id="@+id/img_cell8"
+        android:tag="8"
+        android:onClick="clickOnImages"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -173,5 +191,18 @@
         app:layout_constraintStart_toStartOf="@+id/vgl2"
         app:layout_constraintTop_toTopOf="@+id/hgl3"
          />
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Game"
+        android:textAllCaps="false"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vgl2"
+        app:layout_constraintStart_toStartOf="@+id/vgl1"
+        app:layout_constraintTop_toTopOf="@+id/hgl4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Game00</string>
+    <string name="txt_btn">Reset Game</string>
 </resources>
